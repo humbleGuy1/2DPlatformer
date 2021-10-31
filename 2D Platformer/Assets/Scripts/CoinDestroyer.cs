@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CoinDestroyer : MonoBehaviour
 {
-    [SerializeField] AudioSource _sound;
+    [SerializeField] private AudioSource _sound;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

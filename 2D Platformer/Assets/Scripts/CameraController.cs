@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private GameObject _playerPrefab;
+    [SerializeField] private Player _player;
     
     private void Update()
     {
-        Vector3 position = new Vector3(_playerPrefab.transform.position.x, transform.position.y, transform.position.z);
+        Vector3 position = new Vector3(_player.transform.position.x, transform.position.y, transform.position.z);
         transform.position = position;
     }
 }

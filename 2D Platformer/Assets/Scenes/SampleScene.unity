@@ -181,6 +181,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4406690891450371081, guid: 1b9934325ad69a54ea9b560c10843bfd, type: 3}
   m_PrefabInstance: {fileID: 4406690891522345091}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &200983698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200983690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4210bff812904b4284c55ad657b24b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &200983699
 AudioSource:
   m_ObjectHideFlags: 0
@@ -644,7 +656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b733651ddc2e446a1b693102fcf152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerPrefab: {fileID: 200983690}
+  _player: {fileID: 200983698}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1364,7 +1376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30e2da4a09ef24041b261ad90ddde89a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coinPrefab: {fileID: 4529028654602687277, guid: 2f6943da21cb3d64ab37b28e012fee10, type: 3}
+  _coin: {fileID: -762148785093042019, guid: 2f6943da21cb3d64ab37b28e012fee10, type: 3}
   _points:
   - {x: -6, y: -0.5}
   - {x: -5, y: -0.5}
