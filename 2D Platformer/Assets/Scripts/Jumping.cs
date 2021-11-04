@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
 
-public class Jump : MonoBehaviour
+public class Jumping : MonoBehaviour
 {
     [SerializeField] private float _jumpForce;
 
